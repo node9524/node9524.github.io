@@ -31,7 +31,8 @@ github_username:  jekyll
 minimal_mistakes_skin: "dark"
 # Build settings
 # theme: minima
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme : mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
   - jekyll-paginate
