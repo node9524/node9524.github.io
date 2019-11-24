@@ -31,7 +31,7 @@ github_username:  jekyll
 minimal_mistakes_skin: "default"
 # Build settings
 # theme: minima
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 # remote_theme : mmistakes/minimal-mistakes
 plugins:
   - jekyll-include-cache
