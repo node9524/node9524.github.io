@@ -14,8 +14,10 @@ gem "jekyll", "~> 4.0.0"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
+gem "minimal-mistakes-jekyll"
+gen "jekyll-include-cache"
+
 group :jekyll_plugins do
-  gem "minimal-mistakes-jekyll"
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
   gem "jekyll-gist"
@@ -23,7 +25,6 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-algolia"
   gem "rake"
-  gen "jekyll-include-cache"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
